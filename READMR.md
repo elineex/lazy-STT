@@ -54,7 +54,8 @@ For Windows:
 
 For Linux:
 
-    python3 -m pip install faster-whisper sounddevice numpy keyboard
+    pip install numpy sounddevice faster-whisper keyboard pyautogui
+    apt install ffmpeg python3-xlib
 
 Example installation command:
 
