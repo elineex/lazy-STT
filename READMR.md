@@ -1,6 +1,6 @@
 Overview
 
-lazy.py is a Windows-focused voice control and voice typing script that listens to microphone input, transcribes speech with Faster-Whisper, and then either types text or triggers keyboard and mouse actions based on spoken commands.
+lazy-en-win.py is a Windows-focused voice control and voice typing script and lazy-en-linux.py is for Linux that listens to microphone input, transcribes speech with Faster-Whisper, and then either types text or triggers keyboard and mouse actions based on spoken commands.
 
 The script records audio from the default input device, detects when speech starts and ends using volume thresholds, saves the captured phrase as a temporary WAV file, and sends it to a Whisper model for transcription.
 What the script does
