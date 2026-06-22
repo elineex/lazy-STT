@@ -48,6 +48,13 @@ Third-party packages required with pip:
     keyboard
 
     pywin32
+For Windows:
+
+    python -m pip install faster-whisper sounddevice numpy keyboard pywin32
+
+For Linux:
+
+    python3 -m pip install faster-whisper sounddevice numpy keyboard
 
 Example installation command:
 
